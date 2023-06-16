@@ -1,0 +1,8 @@
+n=int(input())
+x1=map(int,input().split())
+x2=map(int,input().split())
+print(x1,type(x1))
+x1=list(x1)
+x2=list(x2)
+print(x1,x2)
+# print(numpy.linalg.det([x1,x2]))
