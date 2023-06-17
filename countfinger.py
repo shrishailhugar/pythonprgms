@@ -14,4 +14,3 @@ while(True):
             print("the {} had relation with {} finger".format(inn,list1[a]))
       
 
-    
