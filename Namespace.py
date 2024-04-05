@@ -40,7 +40,7 @@ funeclosed1()
 # here set will be called from python if no local functions present else it will call local
 #else here i've written same set function in another file differntfile.py from there it will execute if it's not present in local file
 #YOU SHOULD IMPORT FUNCTION NOT ONLY FILE
-#if that's present in both local and imported file then it will go for inbuilt function
+#if that's not present in both local and imported file then it will go for inbuilt function
 # def set(l):
 #     print(l)
 #     print("Hi it's set")
