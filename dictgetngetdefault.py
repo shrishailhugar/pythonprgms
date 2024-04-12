@@ -4,6 +4,7 @@ dict1={'a':"shreee",'b':"Bapu"}
 print(dict1.get('a','sh'))
 print(dict1)
 
-#settig default
-dict1.setdefault('c',"Manu")
+#settig default here the a key value not going to overwritten by 'manu' instead it will be shree only.
+#if there is a value present don't overwrite else write.
+dict1.setdefault('a',"Manu")
 print(dict1)
